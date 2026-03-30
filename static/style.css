@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    background-color: #f5f7fb;
+    color: #333;
+    margin: 0;
+    padding: 32px;
+}
+
+h1 {
+    margin-bottom: 24px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+.section {
+    background: #fff;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+form {
+    margin-bottom: 12px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 220px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+button:disabled {
+    background-color: #cbd5e1;
+    color: #666;
+    cursor: not-allowed;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f1f5f9;
+}
+
+a {
+    margin-right: 12px;
+    text-decoration: none;
+    color: #2563eb;
+}
+
+.low-stock {
+    background-color: #fef2f2;
+}
+
+.out-stock {
+    background-color: #f3f4f6;
+    color: #9ca3af;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.action-buttons form {
+    margin: 0;
+}
+
+.btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-danger {
+    background-color: #dc2626;
+}
+
+.btn-danger:hover {
+    background-color: #b91c1c;
+}
+
+.btn-edit {
+    background-color: #059669;
+}
+
+.btn-edit:hover {
+    background-color: #047857;
+}
+
+.btn-disabled {
+    background-color: #cbd5e1;
+    color: #666;
+    cursor: not-allowed;
+}

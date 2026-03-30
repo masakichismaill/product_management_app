@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品編集</title>
+</head>
+<body>
+    <h1>商品編集</h1>
+
+    <form action="/update" method="POST">
+        <input type="hidden" name="product_id" value="{{ product.product_id }}">
+        <label>商品名:</label>
+        <input type="text" name="name" value="{{ product.name }}">
+        <label>価格:</label>
+        <input type="number" name="price" value="{{ product.price }}">
+        <label>在庫</label>
+        <input type="number" name="stock" value="{{ product.stock }}">
+        
+        <button type="submit">更新</button>
+    </form>
+</body>
+</html>
