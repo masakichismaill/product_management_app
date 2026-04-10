@@ -32,6 +32,9 @@ def init_db():
     conn.close()
 
 
+init_db()
+
+
 def get_connection():
     """products.dbに接続してconnectionを返す。"""
     conn = sqlite3.connect("products.db")
@@ -293,5 +296,4 @@ def restock_product():
 
 
 if __name__ == "__main__":
-    init_db()
     app.run(debug=True)
